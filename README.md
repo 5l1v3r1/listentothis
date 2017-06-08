@@ -1,5 +1,5 @@
 # listentothis
-A simple script to update one of my Spotify playlists with the top 10 songs from /r/listentothis 
+A simple script to update an existing Spotify playlist with the top 10 songs from /r/listentothis 
 
 ## Executing the script
 The program can be invoked by the following command:
