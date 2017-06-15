@@ -11,7 +11,7 @@ def get_songlist_reddit(keys):
     songs_added = 0
     song = ''
     #add 10 songs to the playlist
-    for submission in reddit.subreddit('listentothis').hot(limit=None):
+    for submission in reddit.subreddit('listentothis').new(limit=None):
 	    song = submission.title.split('[')[0]
 	    print song
 	    if search_song(keys, song):
